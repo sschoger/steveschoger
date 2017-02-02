@@ -1,0 +1,97 @@
+body {
+  font-family:'ITC Franklin Gothic LT W01 Bk', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 24px;
+  background: #f7f7f7;
+  font-size: 16px; }
+
+.main-wrapper {
+  box-shadow: inset 0 -20px 0 #fff,inset 20px 0 0 #fff,inset -20px 0 0 #fff;
+  min-height: 100vh;
+  min-width: 100%; }
+
+.container {
+  max-width: 420px;
+  padding: 40px 60px 60px 60px; }
+
+.top-border {
+  box-shadow: inset 0 20px 0 #fff;
+  height: 20px; }
+
+.logo {
+  margin-bottom: 40px; }
+
+.svg-logo {
+  fill: #4483D9; }
+
+.icon-link {
+  fill: #4483D9; }
+
+ul.projects svg {
+  padding-bottom: 2px;
+  margin-left: 8px; }
+
+p {
+  color: #4f4f4f;
+  margin-bottom: 24px;
+  font-weight: 400; }
+
+a {
+  color: #4483D9;
+  text-decoration: none;
+  font-weight: 400; }
+
+a:hover {
+  text-decoration: underline; }
+
+li {
+  margin-bottom: 6px;
+  color: #4f4f4f; }
+
+.projects-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-top: 24px;
+  color: #4f4f4f;
+  font-family:'ITC Franklin Gothic LT W01 Md', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   }
+
+.line-seperator {
+  background-color: #4f4f4f;
+  height: 2px;
+  width: 40px;
+  margin-bottom: 24px; }
+
+ul.projects {
+  margin-bottom: 20px; }
+
+ul.social {
+	padding-top: 24px;
+}
+
+ul.social li {
+  display: inline-block;
+  margin-right: 20px; }
+
+.social-icon {
+  fill: #4f4f4f; }
+
+a .social-icon:hover {
+  fill: #6d6d6d; }
+  
+  
+@media (max-width: 415px) { 
+	
+.container {
+  padding: 30px }
+  
+.main-wrapper {
+  box-shadow: inset 0 -10px 0 #fff,inset 10px 0 0 #fff,inset -10px 0 0 #fff;}
+  
+  .top-border {
+  box-shadow: inset 0 10px 0 #fff;
+  height: 10px; }
+	
+	}
+

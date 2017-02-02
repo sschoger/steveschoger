@@ -1,0 +1,120 @@
+body {
+    background: #f7f7f7;
+    font-size: 16px;
+}
+
+.main-wrapper {
+    box-shadow: inset 0 -20px 0 #fff, inset 20px 0 0 #fff, inset -20px 0 0 #fff;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.container {
+    padding: 80px 34px 80px 34px;
+}
+
+.top-border {
+    box-shadow: inset 0 20px 0 #fff;
+    height: 20px;
+}
+
+.logo {
+    max-width: 640px;
+    margin: 0 auto 40px auto;
+}
+
+.logo > svg {
+    fill: #4483D9;
+}
+
+h1 {
+    font-family: 'ITC Franklin Gothic LT W01 Dm', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    line-height: 1.15em;
+    color: rgba(0, 0, 0, .8);
+}
+
+p,
+li,
+em {
+    font-family: 'FreightText W01 Book', serif;
+    color: rgba(0, 0, 0, .7);
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+h1,
+p,
+li,
+ul,
+.article-time {
+    max-width: 640px;
+    margin: 0 auto .75em auto;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.sans{
+  font-family: 'ITC Franklin Gothic LT W01 Dm', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.aligned-center {
+    text-align: center;
+    margin: 2em auto;
+    max-width: 640px;
+}
+
+.article-time {
+    font-family: 'ITC Franklin Gothic LT W01 Dm', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .3);
+}
+
+em {
+    font-family: 'FreightText W01 Book Italic', serif;
+}
+
+a {
+    color: #4483D9;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    margin-bottom: 20px;
+}
+
+
+.border-bottom{
+  border-bottom: 2px solid #ccc;
+  margin: 2em auto;
+    max-width: 640px;
+}
+
+@media (max-width: 800px) {
+    ul,
+    ol {
+        list-style-position: inside;
+    }
+}
+
+@media (max-width: 415px) {
+    .main-wrapper {
+        box-shadow: inset 0 -10px 0 #fff, inset 10px 0 0 #fff, inset -10px 0 0 #fff;
+    }
+    .top-border {
+        box-shadow: inset 0 10px 0 #fff;
+        height: 10px;
+    }
+}
+
+
+}
