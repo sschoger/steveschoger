@@ -45,7 +45,8 @@ a:hover {
 
 li {
   margin-bottom: 6px;
-  color: #4f4f4f; }
+  color: #4f4f4f;
+  list-style: none; }
 
 .projects-title {
   font-size: 14px;
@@ -73,6 +74,7 @@ ul.social {
 ul.social li {
   display: inline-block;
   margin-right: 20px; }
+
 
 .social-icon {
   fill: #4f4f4f; }
